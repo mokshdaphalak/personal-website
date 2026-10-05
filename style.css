@@ -1,1 +1,94 @@
-* { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f7fb; color: #333; } .profile-header { background-color: #1e3a8a; color: white; text-align: center; padding: 50px 20px; } .profile-header h1 { font-size: 40px; margin-bottom: 10px; } .profile-header p { font-size: 20px; } .navigation-menu { background-color: #172554; text-align: center; padding: 15px; } .navigation-menu a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; } .navigation-menu a:hover { color: #93c5fd; } .content-section { max-width: 900px; margin: 30px auto; padding: 30px; background-color: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); } .content-section h2 { color: #1e3a8a; margin-bottom: 15px; } .skills-list { padding-left: 25px; } .project-card { margin-top: 20px; padding: 20px; background-color: #eef4ff; border-left: 5px solid #1e3a8a; border-radius: 5px; } .website-footer { text-align: center; background-color: #172554; color: white; padding: 20px; margin-top: 40px; } @media (max-width: 600px) { .profile-header h1 { font-size: 30px; } .navigation-menu a { display: block; margin: 8px; } .content-section { margin: 20px 10px; } }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+.profile-header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.profile-header p {
+    font-size: 20px;
+}
+
+.navigation-menu {
+    background-color: #172554;
+    text-align: center;
+    padding: 15px;
+}
+
+.navigation-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navigation-menu a:hover {
+    color: #93c5fd;
+}
+
+.content-section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    padding-left: 25px;
+}
+
+.project-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eef4ff;
+    border-left: 5px solid #1e3a8a;
+    border-radius: 5px;
+}
+
+.website-footer {
+    text-align: center;
+    background-color: #172554;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+    .profile-header h1 {
+        font-size: 30px;
+    }
+
+    .navigation-menu a {
+        display: block;
+        margin: 8px;
+    }
+
+    .content-section {
+        margin: 20px 10px;
+    }
+}
